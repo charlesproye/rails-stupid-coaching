@@ -16,9 +16,13 @@ $black-p: rgb(100,100,100);
   font-weight: bold;
 }
 
-#links {
+a {
   text-decoration: none;
-  color: $black-p;
+  color: $black-h1;
+  font-family:Helvetica;
+  &:hover {
+    font-weight:bold;
+  }
 }
 
 #form {
